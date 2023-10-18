@@ -80,8 +80,5 @@
   "engines": {
     "node": ">=18"
   },
-  "resolutions": {
-    "jackspeak": "2.1.1"
-  },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@3.6.4"
 }
