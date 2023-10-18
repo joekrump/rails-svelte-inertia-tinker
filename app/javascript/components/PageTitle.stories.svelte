@@ -19,7 +19,6 @@
 </script>
 
 <Template let:args>
-  <!--👇 'on:click' allows to forward event to addon-actions  -->
   <PageTitle {...args}></PageTitle>
 </Template>
 
