@@ -2,7 +2,7 @@
   import PageTitle from './PageTitle.svelte';
 
   export const meta = {
-    title: 'Example Page Title',
+    title: 'Components/PageTitle',
     component: PageTitle,
     argTypes: {
       children: {
