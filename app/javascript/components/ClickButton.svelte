@@ -22,7 +22,7 @@
 
   <button
     type="button"
-    on:click={sendClick}
+    on:click={() => 'hi'}
     class="mt-3 w-full rounded bg-rose py-2 font-medium text-black transition hover:bg-rails-light hover:text-white active:outline-none active:ring-2 active:ring-rails-light active:ring-offset-1"
   >
     Click me!
