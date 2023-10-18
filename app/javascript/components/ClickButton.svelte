@@ -1,6 +1,7 @@
 <script lang="ts">
   import { sendClick } from '@/stores/clicks';
   import { scale } from 'svelte/transition';
+  import RocketIcon from '@/components/icons/RocketIcon.svelte';
 
   export let count: number;
 </script>
@@ -29,6 +30,6 @@
   </button>
 
   <p class="mt-3 hidden text-center text-xs text-gray-600 sm:block">
-    Tip: Open two browser windows in parallel and see what happens.
+    <RocketIcon class="w-10 h-10 inline" /> Tip: Open two browser windows in parallel and see what happens.
   </p>
 </div>
