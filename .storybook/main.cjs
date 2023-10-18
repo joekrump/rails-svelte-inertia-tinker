@@ -1,5 +1,5 @@
 module.exports = {
-  "stories": ["../stories/**/*.stories.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx|svelte)"],
+  "stories": ["../app/javascript/**/*.stories.mdx", "../app/javascript/**/*.stories.@(js|ts|svelte)"],
   "addons": ["@storybook/addon-links", "@storybook/addon-essentials", "@storybook/addon-interactions"],
   "framework": "@storybook/svelte-vite",
   "core": {
