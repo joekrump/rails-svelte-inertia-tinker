@@ -7,7 +7,7 @@
   import PageTitle from '@/components/PageTitle.svelte';
   import { IconCheck } from '@tabler/icons-svelte';
 
-  export let features;
+  export let features: any[];
 </script>
 
 <PageTitle>About</PageTitle>

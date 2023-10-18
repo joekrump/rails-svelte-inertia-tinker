@@ -8,7 +8,7 @@
 
   export let status: number;
 
-  const ERROR_MESSAGES = {
+  const ERROR_MESSAGES: { [index: number]: string } = {
     404: "The page you were looking for doesn't exist",
     422: 'The change you wanted was rejected',
     500: "We're sorry, but something went wrong",

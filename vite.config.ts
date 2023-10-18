@@ -24,7 +24,7 @@ export default defineConfig({
   },
   server: {
     hmr: {
-      host: 'vite.templatus-inertia.test',
+      host: 'vite.rails-svelte-inertia-tinker.test',
       clientPort: 443,
     },
   },

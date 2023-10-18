@@ -5,16 +5,6 @@
 
 Templatus is an opinionated template to build web applications with Ruby on Rails and Inertia (using Svelte.js). It simplifies the process of setting up a new application while following best practices.
 
-Live demo available at https://templatus-inertia.ledermann.dev
-
-There are two sister repositories:
-
-Using Hotwire instead of Inertia (the "DHH way"):
-https://github.com/templatus/templatus-hotwire/
-
-Using API instead of Inertia and Svelte.js instead of Vue.js;
-https://github.com/templatus/templatus/
-
 ## Features / Technology stack
 
 ### Backend
@@ -190,7 +180,8 @@ bin/setup
 bin/dev
 ```
 
-Then open https://templatus-inertia.test in your browser.
+_Replace all instances of rails-svelte-inertia-tinker with the directory that this project appears in_
+Then open https://rails-svelte-inertia-tinker.test in your browser.
 
 ### Running linters
 

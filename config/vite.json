@@ -6,7 +6,7 @@
   "development": {
     "autoBuild": true,
     "publicOutputDir": "vite-dev",
-    "host": "vite.templatus-inertia.test",
+    "host": "vite.rails-svelte-inertia-tinker.test",
     "port": 3036
   },
   "test": {
