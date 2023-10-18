@@ -51,3 +51,4 @@ Brewfile.lock.json
 
 .yarn/cache/*
 .yarn/install-state.gz
+*/.DS_Store
