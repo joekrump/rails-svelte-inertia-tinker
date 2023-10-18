@@ -48,3 +48,6 @@ yarn-debug.log*
 /public/vite*
 
 Brewfile.lock.json
+
+.yarn/cache/*
+.yarn/install-state.gz
