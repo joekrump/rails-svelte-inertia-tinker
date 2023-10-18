@@ -1,0 +1,6 @@
+db/schema.rb
+tsconfig.json
+coverage/*
+public/*
+app/javascript/routes.d.ts
+app/javascript/routes.js

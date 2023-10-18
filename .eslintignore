@@ -1,0 +1,13 @@
+/node_modules
+/coverage
+/public
+/vendor
+/tmp
+/log
+/db
+/config
+*.config.cjs
+*.config.ts
+.eslintrc.cjs
+app/javascript/routes.js
+app/javascript/routes.d.ts

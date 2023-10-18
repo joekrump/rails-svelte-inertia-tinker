@@ -1,0 +1,65 @@
+{
+  "name": "templatus-inertia",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint --ext .js,.cjs,.ts,.svelte --cache .",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@honeybadger-io/js": "^6.5.2",
+    "@inertiajs/svelte": "^1.0.12",
+    "@rails/actioncable": "^7.1.1",
+    "@tabler/icons-svelte": "^2.39.0",
+    "plausible-tracker": "^0.3.8",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^4.0.2",
+    "@size-limit/file": "^9.0.0",
+    "@sveltejs/vite-plugin-svelte": "2.4.6",
+    "@tailwindcss/forms": "^0.5.6",
+    "@testing-library/dom": "^9.3.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/svelte": "^4.0.4",
+    "@testing-library/user-event": "^14.5.1",
+    "@tsconfig/svelte": "^5.0.2",
+    "@types/rails__actioncable": "^6.1.7",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "@vitest/coverage-v8": "^0.34.6",
+    "acorn": "^8.10.0",
+    "autoprefixer": "^10.4.16",
+    "cypress": "^13.3.1",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-svelte": "^2.34.0",
+    "jsdom": "^22.1.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "size-limit": "^9.0.0",
+    "svelte": "^4.2.1",
+    "svelte-preprocess": "^5.0.4",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-ruby": "^3.2.2",
+    "vitest": "^0.34.6"
+  },
+  "size-limit": [
+    {
+      "limit": "75 kB",
+      "path": "public/{vite,vite-dev,vite-test}/assets/*.js"
+    }
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
