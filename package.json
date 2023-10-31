@@ -27,7 +27,7 @@
     "@storybook/addon-interactions": "^7.5.0",
     "@storybook/addon-links": "^7.5.0",
     "@storybook/addon-svelte-csf": "^4.0.9",
-    "@storybook/svelte": "^7.5.0",
+    "@storybook/svelte": "^7.5.2",
     "@storybook/svelte-vite": "^7.5.0",
     "@storybook/testing-library": "^0.2.2",
     "@sveltejs/vite-plugin-svelte": "2.4.6",
