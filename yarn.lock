@@ -9056,7 +9056,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.0, magic-string@npm:^0.30.1, magic-string@npm:^0.30.3":
+"magic-string@npm:^0.30.0, magic-string@npm:^0.30.1, magic-string@npm:^0.30.3, magic-string@npm:^0.30.4":
   version: 0.30.5
   resolution: "magic-string@npm:0.30.5"
   dependencies:
@@ -11808,9 +11808,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "svelte@npm:4.2.1"
+"svelte@npm:^4.2.5":
+  version: 4.2.5
+  resolution: "svelte@npm:4.2.5"
   dependencies:
     "@ampproject/remapping": ^2.2.1
     "@jridgewell/sourcemap-codec": ^1.4.15
@@ -11823,9 +11823,9 @@ __metadata:
     estree-walker: ^3.0.3
     is-reference: ^3.0.1
     locate-character: ^3.0.0
-    magic-string: ^0.30.0
+    magic-string: ^0.30.4
     periscopic: ^3.1.0
-  checksum: 62d53ad48b8879c6327abafd4ad481b9f0efe5f560be93cf9744adf5d2186d30d9ebf693eb549f51d2f6e70de4d57c02e024d9bd1346beba9796c73b066c3d88
+  checksum: c8d4725afa3d6d798a59f2d369822523fa70a0a8181e11ae37df08ea1c752560fe8d12cd48bcfb7fe83b17f0dd1c37c2e0d4e8fa92e98b5ae9b6a2c25bc94de3
   languageName: node
   linkType: hard
 
@@ -12011,7 +12011,7 @@ __metadata:
     react-dom: ^18.2.0
     size-limit: ^9.0.0
     storybook: ^7.5.0
-    svelte: ^4.2.1
+    svelte: ^4.2.5
     svelte-loader: ^3.1.9
     svelte-preprocess: ^5.0.4
     tailwindcss: ^3.3.3
