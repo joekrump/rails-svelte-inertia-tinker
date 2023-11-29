@@ -24,7 +24,7 @@
     "@size-limit/file": "^9.0.0",
     "@storybook/addon-actions": "^7.5.0",
     "@storybook/addon-essentials": "^7.5.0",
-    "@storybook/addon-interactions": "^7.5.0",
+    "@storybook/addon-interactions": "^7.6.0",
     "@storybook/addon-links": "^7.5.0",
     "@storybook/addon-svelte-csf": "^4.0.9",
     "@storybook/svelte": "^7.5.0",
