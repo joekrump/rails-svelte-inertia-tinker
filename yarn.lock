@@ -2707,7 +2707,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:7.5.0, @storybook/addon-actions@npm:^7.5.0":
+"@storybook/addon-actions@npm:7.5.0":
   version: 7.5.0
   resolution: "@storybook/addon-actions@npm:7.5.0"
   dependencies:
@@ -2736,6 +2736,20 @@ __metadata:
     react-dom:
       optional: true
   checksum: 8bdec724c8b6f64c7b8fa0953240c67d6bc6f2316e94dc1d7b32f1118f4beb53c987bd36989ccb40c6b444bbb2b7aa5f5ddca14852845e9801e9d2f1cbda8690
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-actions@npm:^7.6.0":
+  version: 7.6.0
+  resolution: "@storybook/addon-actions@npm:7.6.0"
+  dependencies:
+    "@storybook/core-events": 7.6.0
+    "@storybook/global": ^5.0.0
+    "@types/uuid": ^9.0.1
+    dequal: ^2.0.2
+    polished: ^4.2.2
+    uuid: ^9.0.0
+  checksum: ebd2c51c1986c7af3c2bddd4af1ec367860c79bf53a07dff633a866820345c88d3e4899dd28ba444cebf280760dfaaa5c828cbf9d1b8cf656c657689c485a5a2
   languageName: node
   linkType: hard
 
@@ -3293,6 +3307,15 @@ __metadata:
   dependencies:
     ts-dedent: ^2.0.0
   checksum: 829321419c5e5e21c17e72c4006004e73b24648e065ed5b278074317f5d57ce896a1a28deff51184ae44fd8a9d463519ab261bbe5a17736ca50ff7c5bbcb44f9
+  languageName: node
+  linkType: hard
+
+"@storybook/core-events@npm:7.6.0":
+  version: 7.6.0
+  resolution: "@storybook/core-events@npm:7.6.0"
+  dependencies:
+    ts-dedent: ^2.0.0
+  checksum: 4c7319261ee892b8c635f70f5155135c1118e3b14bcc44544e75c263409fea5d916546661fe2b58cb9e4f95c723871bfd9efc87616d66221f7a9112894dcde62
   languageName: node
   linkType: hard
 
@@ -4157,6 +4180,13 @@ __metadata:
   version: 2.0.8
   resolution: "@types/unist@npm:2.0.8"
   checksum: f4852d10a6752dc70df363917ef74453e5d2fd42824c0f6d09d19d530618e1402193977b1207366af4415aaec81d4e262c64d00345402020c4ca179216e553c7
+  languageName: node
+  linkType: hard
+
+"@types/uuid@npm:^9.0.1":
+  version: 9.0.7
+  resolution: "@types/uuid@npm:9.0.7"
+  checksum: c7321194aeba9ea173efd1e721403bdf4e7ae6945f8f8cdbc87c791f4b505ccf3dbc4a8883d90b394ef13b7c2dc778045792b05dbb23b3c746f8ea347804d448
   languageName: node
   linkType: hard
 
@@ -11971,7 +12001,7 @@ __metadata:
     "@prettier/plugin-ruby": ^4.0.2
     "@rails/actioncable": ^7.1.1
     "@size-limit/file": ^9.0.0
-    "@storybook/addon-actions": ^7.5.0
+    "@storybook/addon-actions": ^7.6.0
     "@storybook/addon-essentials": ^7.5.0
     "@storybook/addon-interactions": ^7.5.0
     "@storybook/addon-links": ^7.5.0
